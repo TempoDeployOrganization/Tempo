@@ -1,0 +1,17 @@
+name: Auto Request Review
+
+on:
+  pull_request:
+    types: [opened, ready_for_review, reopened]
+
+jobs:
+  auto-request-review:
+    name: Auto Request Review
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request review based on files changes and/or groups the author belongs to
+        uses: necojackarc/auto-request-review@v0.12.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # GitHub token
+          config: .github/auto_request_review.yml # Path to config file
+          use_local: false # Whether to use a local config file
