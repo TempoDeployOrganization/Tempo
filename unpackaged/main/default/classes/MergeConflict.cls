@@ -9,6 +9,7 @@ public class MergeConflict {
         // Test.stopTest();
         
         // Assert to verify the expected results
-        // Example: System.assertEquals(expectedValue, actualValue);
+        // Example: System.assertEquals(expectedValueProvokeMergeConflict, actualValue);
+
     }
 }
