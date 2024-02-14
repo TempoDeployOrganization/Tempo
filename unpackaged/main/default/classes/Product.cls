@@ -2,7 +2,7 @@ public class Product {
     public String name { get; set; }
     public Decimal price { get; set; }
     //comment
-    Integer ab = 260;
+    Integer ab = 250;
     
     public String Precision { get; set; }
     public Decimal Deployment { get; set; }
@@ -10,5 +10,5 @@ public class Product {
     Integer a = 140;
    
     
-    Integer b = 120;
+    Integer b = 110;
 }
