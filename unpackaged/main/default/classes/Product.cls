@@ -4,30 +4,11 @@ public class Product {
     //comment
     Integer ab = 260;
     
-  	//
-  	//
-  	//
-  	//
-  	//Precision Deployment
- 
-  	//
-  	//
-  	//
-  	//
-  	//
-  	//
+    public String Precision { get; set; }
+    public Decimal Deployment { get; set; }
   
-    Integer a = 120;
+    Integer a = 140;
+   
     
-    //
-    //
-    //
-    //Precision Deployment
-    //
-    //
-    //
-    //
-    //
-    
-    Integer b = 140;
+    Integer b = 120;
 }
