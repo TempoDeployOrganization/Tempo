@@ -89,10 +89,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>DEVHUB_8zxjtqvoncfw5ncrd81g</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__Commerce</name>
         <type>CustomApplication</type>
     </appMenuItems>
