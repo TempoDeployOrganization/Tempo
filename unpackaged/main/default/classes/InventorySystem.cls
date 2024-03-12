@@ -1,6 +1,4 @@
-//Rollback
-//2
-//3
+//ShowCase Rollback 
 public class InventorySystem {
 
     // Define inventory item attributes
@@ -16,8 +14,10 @@ public class InventorySystem {
             price = cost;
         }
     }
+    
+    //Rollback
 
-    // List to store inventory items
+    // List to store inventory items - Rollback
     public List<InventoryItem> inventoryList;
 
     // Constructor to initialize the inventory list
