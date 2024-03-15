@@ -2,7 +2,7 @@
 public class Product {
     public String name { get; set; }
     public Decimal price { get; set; }
-    //comment Rollback
+    //comment
     Integer ab = 250;
     
     public String Precision { get; set; }

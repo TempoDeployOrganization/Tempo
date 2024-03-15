@@ -8,7 +8,7 @@ public class ProductTest {
         
         // Set values for the properties
         testProduct.name = 'Test Product';
-        testProduct.price = 19.99;
+        testProduct.price = 20;
         
         // Verify the values are set correctly
         System.assertEquals('Test Product', testProduct.name, 'Name not set correctly');
