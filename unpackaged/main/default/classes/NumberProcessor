@@ -1,0 +1,15 @@
+public class NumberProcessor {
+    public static String processNumber(Integer number) {
+        if (number == null) {
+            return 'Input is null';
+        } else if (number < 0) {
+            return 'Negative number';
+        } else if (number == 0) {
+            return 'Zero';
+        } else if (number > 0 && number < 10) {
+            return 'Single-digit positive number';
+        } else {
+            return 'Multi-digit positive number';
+        }
+    }
+}
