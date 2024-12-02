@@ -1,0 +1,41 @@
+@isTest
+public class NumberProcessorTest {
+    
+    @isTest
+    static void testProcessNumber() {
+        // Test case for null input
+        String result = NumberProcessor.processNumber(null);
+        if (result != 'Input is null') {
+            System.debug('Test failed for null input');
+        }
+        System.assertEquals('Input is null', result, 'Expected output for null input.');
+
+        // Test case for negative number
+        result = NumberProcessor.processNumber(-5);
+        if (result != 'Negative number') {
+            System.debug('Test failed for negative input');
+        }
+        System.assertEquals('Negative number', result, 'Expected output for negative number.');
+
+        // Test case for zero
+        result = NumberProcessor.processNumber(0);
+        if (result != 'Zero') {
+            System.debug('Test failed for zero input');
+        }
+        System.assertEquals('Zero', result, 'Expected output for zero.');
+
+        // Test case for single-digit positive number
+        result = NumberProcessor.processNumber(5);
+        if (result != 'Single-digit positive number') {
+            System.debug('Test failed for single-digit positive number input');
+        }
+        System.assertEquals('Single-digit positive number', result, 'Expected output for single-digit positive number.');
+
+        // Test case for multi-digit positive number
+        result = NumberProcessor.processNumber(15);
+        if (result != 'Multi-digit positive number') {
+            System.debug('Test failed for multi-digit positive number input');
+        }
+        System.assertEquals('Multi-digit positive number', result, 'Expected output for multi-digit positive number.');
+    }
+}
